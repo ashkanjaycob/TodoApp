@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo App</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+
+      <div class="input-container">
+        <input type="text" id="todo-input" placeholder="Add a new todo..." />
+        <button id="add-todo">Add +</button>
+      </div>
+
+      <div class="search-container">
+        <input type="text" id="search-todo" placeholder="Search Todos..." />
+      </div>
+
+      <ul id="todo-list">
+        <button class="remove-all" id="clear-all">Remove All Todos</button>
+      </ul>
+    </div>
+  </body>
 </html>
