@@ -21,11 +21,11 @@ document.addEventListener("DOMContentLoaded", () => {
       li.className = todo.checked ? "checked" : "";
       li.innerHTML = `
           <button class="check-button" data-index="${index}">
-            <img src="https://img.icons8.com/color/48/000000/checkmark.png" alt="Check" />
+            <img src="assets/checkmark.png" alt="Check" />
           </button>
           <span>${todo.text}</span>
           <button class="remove-button" data-index="${index}">
-            <img src="https://img.icons8.com/color/48/000000/delete-sign.png" alt="Remove" />
+            <img src="assets/delete-sign.png" alt="Remove" />
           </button>
         `;
       todoList.appendChild(li);
